@@ -1,2 +1,2 @@
 # Stack
-Implementation of of Stack data structure in JavaScript
+Implementation of of Stack data structure using JavaScript
