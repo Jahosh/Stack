@@ -4,7 +4,6 @@ const Stack = function() {
 
 Stack.prototype.push = function(value) {
   let index = this._storage.size;
-
   this._storage.set(index, value);
 };
 
@@ -18,7 +17,6 @@ Stack.prototype.pop = function() {
 Stack.prototype.size = function() {
   return this._storage.size;
 };
-
 
 /****  Implementation */
 const stack = new Stack();
