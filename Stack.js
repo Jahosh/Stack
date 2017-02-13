@@ -7,6 +7,11 @@ Stack.prototype.push = function(value) {
   this._storage.set(index, value);
 };
 
+Stack.prototype.peek = function() {
+  let index = this._storage.size - 1;
+  return this._storage.get(index);
+}
+
 Stack.prototype.pop = function() {
   let index = this._storage.size - 1;
   let value = this._storage.get(index);
@@ -27,3 +32,4 @@ stack.push(2014);
 stack.size() // 4
 stack.pop() // 2014
 stack.size() // 3
+stack.peek() // 2015
