@@ -10,7 +10,7 @@ Stack.prototype.push = function(value) {
 Stack.prototype.peek = function() {
   let index = this._storage.size - 1;
   return this._storage.get(index);
-}
+};
 
 Stack.prototype.pop = function() {
   let index = this._storage.size - 1;
